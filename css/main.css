@@ -439,3 +439,20 @@ a { color: inherit; text-decoration: none; }
   .plx { transform: none !important; }
   .scroll-cue .line::after { animation: none; }
 }
+
+/* ---------- v2.1: Capabilities ---------- */
+.bench-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2.5rem; margin-top: 3rem; }
+.bench-item { border-top: 1px solid var(--hair-n); padding-top: 1.4rem; }
+.bench-item h3 { font-family: var(--font-d); font-weight: 600; font-size: 1.25rem; margin: 0.9rem 0 0.6rem; }
+.bench-item p { color: var(--off-dim); font-size: 0.98rem; }
+.bench-line { font-size: 1.15rem; max-width: 34em; margin-top: 3rem; }
+.bench-line em { color: var(--green-lt); font-style: normal; }
+@media (max-width: 860px) { .bench-grid { grid-template-columns: 1fr; gap: 1.6rem; } }
+
+/* ---------- v2.1: Promise ---------- */
+.promise .measure { margin-top: 1.4rem; }
+.promise-note { display: block; margin-top: 1.6rem; }
+
+/* ---------- v2.1: Two-path CTA ---------- */
+.cta-paths { display: flex; gap: 3rem; justify-content: center; flex-wrap: wrap; margin-top: 2rem; }
+.cta-path { display: flex; flex-direction: column; gap: 0.9rem; align-items: center; }
